@@ -10,11 +10,11 @@ let data = {
   spec_name3: '尺寸',
   specs: [
     {
-      id: 1,
-      thumb: '',
-      price: '123.00',
-      inventory: 3,
-      attr: '黑;256G;10',
+      id: 1,                  // id
+      thumb: '',              // 图片
+      price: '123.00',        // 价格
+      inventory: 3,           // 库存
+      attr: '黑;256G;10',     // 描述
       spec_value1: '黑',
       spec_value2: '256G',
       spec_value3: '10'
@@ -119,6 +119,26 @@ function getSpecValue (num) {
   }
   return list = Array.from(new Set(arr))
 }
+
+
+let onList = []
+
+for (i of data.specs) {
+  onList.push(getOnList(i))
+}
+
+// 获取可选规格组合
+function getOnList (data) {
+  return {
+    id: data.id,
+    specs: [
+      data.spec_value1,
+      data.spec_value2,
+      data.spec_value3,
+    ]
+  }
+}
+
 console.log(specList)
 
-
+console.log(onList)
