@@ -1,0 +1,28 @@
+{
+  "hellow": "Hello",
+  "navLinks": [
+    {
+      "id": "Key features",
+      "title": "Key features"
+    },
+    {
+      "id": "Characters",
+      "title": "Characters"
+    },
+    {
+      "id": "Game pictures",
+      "title": "Game pictures"
+    },
+    {
+      "id": "Scene display",
+      "title": "Scene display"
+    }
+  ],
+  "introduceTxext": {
+    "title": "ABYSSWORLD",
+    "par1": "Abyss World is a third-person ARPG game. Players will explore the traces of the \"old tide\" in the vast Nordinian world and uncover the secrets behind it.",
+    "par2": "Once in Nordinia, the souls of the world arrived on the other side of the sea with the \"old tide\". But with the emergence of the \"fire thief\" incident, the old tide disappeared, the balance of order was broken and the souls were no longer attracted to the other side. The strange tide sound made the dark sea filth gradually spread, constantly causing the world to fall into the abyss.",
+    "par3": "However, as the ancient lighthouse on the mysterious island of the contaminated area is lit, the power from this world will be awakened and gradually reveal the secret of the soul's home... and the story unfolds.",
+    "par4": "YOU ARE A PIG."
+  }
+}
